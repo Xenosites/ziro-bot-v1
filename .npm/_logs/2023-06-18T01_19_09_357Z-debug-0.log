@@ -1,0 +1,216 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.7.1
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 67ms
+4 timing config:load:defaults Completed in 197ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 97ms
+6 timing config:load:builtin Completed in 97ms
+7 timing config:load:cli Completed in 105ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 237ms
+10 timing config:load:file:/home/container/.npmrc Completed in 4ms
+11 timing config:load:user Completed in 5ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 55ms
+13 timing config:load:global Completed in 55ms
+14 timing config:load:setEnvs Completed in 45ms
+15 timing config:load Completed in 743ms
+16 timing npm:load:configload Completed in 743ms
+17 timing config:load:flatten Completed in 150ms
+18 timing npm:load:mkdirpcache Completed in 71ms
+19 timing npm:load:mkdirplogs Completed in 13ms
+20 verbose title npm install deobfuscator
+21 verbose argv "install" "--global" "deobfuscator"
+22 timing npm:load:setTitle Completed in 3ms
+23 timing npm:load:display Completed in 2ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-06-18T01_19_09_357Z-
+25 verbose logfile /home/container/.npm/_logs/2023-06-18T01_19_09_357Z-debug-0.log
+26 timing npm:load:logFile Completed in 407ms
+27 timing npm:load:timers Completed in 1ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 2182ms
+30 timing config:load:flatten Completed in 23ms
+31 timing arborist:ctor Completed in 8ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 195ms
+34 timing idealTree:userRequests Completed in 92ms
+35 silly idealTree buildDeps
+36 silly fetch manifest deobfuscator@*
+37 http fetch GET 200 https://registry.yarnpkg.com/deobfuscator 2483ms (cache revalidated)
+38 silly placeDep ROOT deobfuscator@2.4.2 OK for:  want: *
+39 silly fetch manifest @javascript-obfuscator/escodegen@2.3.0
+40 silly fetch manifest acorn@8.7.0
+41 silly fetch manifest acorn-loose@8.3.0
+42 silly fetch manifest acorn-walk@8.2.0
+43 silly fetch manifest eslint-scope@7.1.1
+44 silly fetch manifest mersenne-twister@1.1.0
+45 silly fetch manifest prettier@2.5.1
+46 silly fetch manifest yargs@17.3.1
+47 http fetch GET 200 https://registry.yarnpkg.com/@javascript-obfuscator%2fescodegen 779ms (cache revalidated)
+48 http fetch GET 200 https://registry.yarnpkg.com/eslint-scope 799ms (cache revalidated)
+49 http fetch GET 200 https://registry.yarnpkg.com/prettier 826ms (cache revalidated)
+50 http fetch GET 200 https://registry.yarnpkg.com/acorn 902ms (cache revalidated)
+51 http fetch GET 200 https://registry.yarnpkg.com/yargs 905ms (cache revalidated)
+52 http fetch GET 200 https://registry.yarnpkg.com/acorn-walk 1474ms (cache revalidated)
+53 http fetch GET 200 https://registry.yarnpkg.com/mersenne-twister 1453ms (cache revalidated)
+54 http fetch GET 200 https://registry.yarnpkg.com/acorn-loose 1552ms (cache revalidated)
+55 timing idealTree:#root Completed in 4222ms
+56 silly placeDep node_modules/deobfuscator @javascript-obfuscator/escodegen@2.3.0 OK for: deobfuscator@2.4.2 want: 2.3.0
+57 silly fetch manifest @javascript-obfuscator/estraverse@^5.3.0
+58 silly fetch manifest esutils@^2.0.2
+59 silly fetch manifest esprima@^4.0.1
+60 silly fetch manifest optionator@^0.8.1
+61 silly fetch manifest source-map@~0.6.1
+62 silly placeDep node_modules/deobfuscator acorn@8.7.0 OK for: deobfuscator@2.4.2 want: 8.7.0
+63 silly placeDep node_modules/deobfuscator acorn-loose@8.3.0 OK for: deobfuscator@2.4.2 want: 8.3.0
+64 silly placeDep node_modules/deobfuscator acorn-walk@8.2.0 OK for: deobfuscator@2.4.2 want: 8.2.0
+65 silly placeDep node_modules/deobfuscator eslint-scope@7.1.1 OK for: deobfuscator@2.4.2 want: 7.1.1
+66 silly fetch manifest esrecurse@^4.3.0
+67 silly fetch manifest estraverse@^5.2.0
+68 silly placeDep node_modules/deobfuscator mersenne-twister@1.1.0 OK for: deobfuscator@2.4.2 want: 1.1.0
+69 silly placeDep node_modules/deobfuscator prettier@2.5.1 OK for: deobfuscator@2.4.2 want: 2.5.1
+70 silly placeDep node_modules/deobfuscator yargs@17.3.1 OK for: deobfuscator@2.4.2 want: 17.3.1
+71 silly fetch manifest cliui@^7.0.2
+72 silly fetch manifest escalade@^3.1.1
+73 silly fetch manifest get-caller-file@^2.0.5
+74 silly fetch manifest require-directory@^2.1.1
+75 silly fetch manifest string-width@^4.2.3
+76 silly fetch manifest y18n@^5.0.5
+77 silly fetch manifest yargs-parser@^21.0.0
+78 http fetch GET 200 https://registry.yarnpkg.com/esprima 1381ms (cache revalidated)
+79 http fetch GET 200 https://registry.yarnpkg.com/source-map 1352ms (cache revalidated)
+80 http fetch GET 200 https://registry.yarnpkg.com/esutils 1426ms (cache revalidated)
+81 http fetch GET 200 https://registry.yarnpkg.com/optionator 1426ms (cache revalidated)
+82 http fetch GET 200 https://registry.yarnpkg.com/esrecurse 1337ms (cache revalidated)
+83 http fetch GET 200 https://registry.yarnpkg.com/estraverse 1363ms (cache revalidated)
+84 http fetch GET 200 https://registry.yarnpkg.com/y18n 1218ms (cache revalidated)
+85 http fetch GET 200 https://registry.yarnpkg.com/yargs-parser 1168ms (cache revalidated)
+86 http fetch GET 200 https://registry.yarnpkg.com/get-caller-file 1290ms (cache revalidated)
+87 http fetch GET 200 https://registry.yarnpkg.com/cliui 1293ms (cache revalidated)
+88 http fetch GET 200 https://registry.yarnpkg.com/escalade 1314ms (cache revalidated)
+89 http fetch GET 200 https://registry.yarnpkg.com/require-directory 1288ms (cache revalidated)
+90 http fetch GET 200 https://registry.yarnpkg.com/string-width 1731ms (cache revalidated)
+91 http fetch GET 200 https://registry.yarnpkg.com/@javascript-obfuscator%2festraverse 2687ms (cache revalidated)
+92 timing idealTree:node_modules/deobfuscator Completed in 2841ms
+93 silly placeDep node_modules/deobfuscator @javascript-obfuscator/estraverse@5.4.0 OK for: @javascript-obfuscator/escodegen@2.3.0 want: ^5.3.0
+94 silly placeDep node_modules/deobfuscator esprima@4.0.1 OK for: @javascript-obfuscator/escodegen@2.3.0 want: ^4.0.1
+95 silly placeDep node_modules/deobfuscator esutils@2.0.3 OK for: @javascript-obfuscator/escodegen@2.3.0 want: ^2.0.2
+96 silly placeDep node_modules/deobfuscator optionator@0.8.3 OK for: @javascript-obfuscator/escodegen@2.3.0 want: ^0.8.1
+97 silly fetch manifest prelude-ls@~1.1.2
+98 silly fetch manifest deep-is@~0.1.3
+99 silly fetch manifest word-wrap@~1.2.3
+100 silly fetch manifest type-check@~0.3.2
+101 silly fetch manifest levn@~0.3.0
+102 silly fetch manifest fast-levenshtein@~2.0.6
+103 silly placeDep node_modules/deobfuscator source-map@0.6.1 OK for: @javascript-obfuscator/escodegen@2.3.0 want: ~0.6.1
+104 http fetch GET 200 https://registry.yarnpkg.com/deep-is 386ms (cache revalidated)
+105 http fetch GET 200 https://registry.yarnpkg.com/type-check 379ms (cache revalidated)
+106 http fetch GET 200 https://registry.yarnpkg.com/levn 379ms (cache revalidated)
+107 http fetch GET 200 https://registry.yarnpkg.com/word-wrap 403ms (cache revalidated)
+108 http fetch GET 200 https://registry.yarnpkg.com/prelude-ls 421ms (cache revalidated)
+109 http fetch GET 200 https://registry.yarnpkg.com/fast-levenshtein 379ms (cache revalidated)
+110 timing idealTree:node_modules/deobfuscator/node_modules/@javascript-obfuscator/escodegen Completed in 490ms
+111 timing idealTree:node_modules/deobfuscator/node_modules/@javascript-obfuscator/estraverse Completed in 0ms
+112 timing idealTree:node_modules/deobfuscator/node_modules/acorn Completed in 0ms
+113 timing idealTree:node_modules/deobfuscator/node_modules/acorn-loose Completed in 0ms
+114 timing idealTree:node_modules/deobfuscator/node_modules/acorn-walk Completed in 0ms
+115 silly placeDep node_modules/deobfuscator esrecurse@4.3.0 OK for: eslint-scope@7.1.1 want: ^4.3.0
+116 silly placeDep node_modules/deobfuscator estraverse@5.3.0 OK for: eslint-scope@7.1.1 want: ^5.2.0
+117 timing idealTree:node_modules/deobfuscator/node_modules/eslint-scope Completed in 4ms
+118 timing idealTree:node_modules/deobfuscator/node_modules/esprima Completed in 0ms
+119 timing idealTree:node_modules/deobfuscator/node_modules/esrecurse Completed in 0ms
+120 timing idealTree:node_modules/deobfuscator/node_modules/estraverse Completed in 0ms
+121 timing idealTree:node_modules/deobfuscator/node_modules/esutils Completed in 0ms
+122 timing idealTree:node_modules/deobfuscator/node_modules/mersenne-twister Completed in 0ms
+123 silly placeDep node_modules/deobfuscator deep-is@0.1.4 OK for: optionator@0.8.3 want: ~0.1.3
+124 silly placeDep node_modules/deobfuscator fast-levenshtein@2.0.6 OK for: optionator@0.8.3 want: ~2.0.6
+125 silly placeDep node_modules/deobfuscator levn@0.3.0 OK for: optionator@0.8.3 want: ~0.3.0
+126 silly placeDep node_modules/deobfuscator prelude-ls@1.1.2 OK for: optionator@0.8.3 want: ~1.1.2
+127 silly placeDep node_modules/deobfuscator type-check@0.3.2 OK for: optionator@0.8.3 want: ~0.3.2
+128 silly placeDep node_modules/deobfuscator word-wrap@1.2.3 OK for: optionator@0.8.3 want: ~1.2.3
+129 timing idealTree:node_modules/deobfuscator/node_modules/optionator Completed in 128ms
+130 timing idealTree:node_modules/deobfuscator/node_modules/deep-is Completed in 0ms
+131 timing idealTree:node_modules/deobfuscator/node_modules/fast-levenshtein Completed in 0ms
+132 timing idealTree:node_modules/deobfuscator/node_modules/levn Completed in 0ms
+133 timing idealTree:node_modules/deobfuscator/node_modules/prelude-ls Completed in 0ms
+134 timing idealTree:node_modules/deobfuscator/node_modules/prettier Completed in 0ms
+135 timing idealTree:node_modules/deobfuscator/node_modules/source-map Completed in 0ms
+136 timing idealTree:node_modules/deobfuscator/node_modules/type-check Completed in 0ms
+137 timing idealTree:node_modules/deobfuscator/node_modules/word-wrap Completed in 0ms
+138 silly placeDep node_modules/deobfuscator cliui@7.0.4 OK for: yargs@17.3.1 want: ^7.0.2
+139 silly fetch manifest string-width@^4.2.0
+140 silly fetch manifest strip-ansi@^6.0.0
+141 silly fetch manifest wrap-ansi@^7.0.0
+142 silly placeDep node_modules/deobfuscator escalade@3.1.1 OK for: yargs@17.3.1 want: ^3.1.1
+143 silly placeDep node_modules/deobfuscator get-caller-file@2.0.5 OK for: yargs@17.3.1 want: ^2.0.5
+144 silly placeDep node_modules/deobfuscator require-directory@2.1.1 OK for: yargs@17.3.1 want: ^2.1.1
+145 silly placeDep node_modules/deobfuscator string-width@4.2.3 OK for: yargs@17.3.1 want: ^4.2.3
+146 silly fetch manifest emoji-regex@^8.0.0
+147 silly fetch manifest is-fullwidth-code-point@^3.0.0
+148 silly fetch manifest strip-ansi@^6.0.1
+149 silly placeDep node_modules/deobfuscator y18n@5.0.8 OK for: yargs@17.3.1 want: ^5.0.5
+150 silly placeDep node_modules/deobfuscator yargs-parser@21.1.1 OK for: yargs@17.3.1 want: ^21.0.0
+151 http fetch GET 200 https://registry.yarnpkg.com/strip-ansi 409ms (cache revalidated)
+152 http fetch GET 200 https://registry.yarnpkg.com/strip-ansi 283ms (cache revalidated)
+153 http fetch GET 200 https://registry.yarnpkg.com/emoji-regex 333ms (cache revalidated)
+154 http fetch GET 200 https://registry.yarnpkg.com/wrap-ansi 378ms (cache revalidated)
+155 http fetch GET 200 https://registry.yarnpkg.com/is-fullwidth-code-point 407ms (cache revalidated)
+156 timing idealTree:node_modules/deobfuscator/node_modules/yargs Completed in 630ms
+157 silly placeDep node_modules/deobfuscator strip-ansi@6.0.1 OK for: cliui@7.0.4 want: ^6.0.0
+158 silly fetch manifest ansi-regex@^5.0.1
+159 silly placeDep node_modules/deobfuscator wrap-ansi@7.0.0 OK for: cliui@7.0.4 want: ^7.0.0
+160 silly fetch manifest ansi-styles@^4.0.0
+161 http fetch GET 200 https://registry.yarnpkg.com/ansi-regex 65ms (cache revalidated)
+162 http fetch GET 200 https://registry.yarnpkg.com/ansi-styles 99ms (cache revalidated)
+163 timing idealTree:node_modules/deobfuscator/node_modules/cliui Completed in 183ms
+164 timing idealTree:node_modules/deobfuscator/node_modules/escalade Completed in 0ms
+165 timing idealTree:node_modules/deobfuscator/node_modules/get-caller-file Completed in 1ms
+166 timing idealTree:node_modules/deobfuscator/node_modules/require-directory Completed in 0ms
+167 silly placeDep node_modules/deobfuscator emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+168 silly placeDep node_modules/deobfuscator is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+169 timing idealTree:node_modules/deobfuscator/node_modules/string-width Completed in 3ms
+170 timing idealTree:node_modules/deobfuscator/node_modules/emoji-regex Completed in 0ms
+171 timing idealTree:node_modules/deobfuscator/node_modules/is-fullwidth-code-point Completed in 0ms
+172 silly placeDep node_modules/deobfuscator ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+173 timing idealTree:node_modules/deobfuscator/node_modules/strip-ansi Completed in 22ms
+174 timing idealTree:node_modules/deobfuscator/node_modules/ansi-regex Completed in 0ms
+175 silly placeDep node_modules/deobfuscator ansi-styles@4.3.0 OK for: wrap-ansi@7.0.0 want: ^4.0.0
+176 silly fetch manifest color-convert@^2.0.1
+177 http fetch GET 200 https://registry.yarnpkg.com/color-convert 69ms (cache revalidated)
+178 timing idealTree:node_modules/deobfuscator/node_modules/wrap-ansi Completed in 73ms
+179 silly placeDep node_modules/deobfuscator color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+180 silly fetch manifest color-name@~1.1.4
+181 http fetch GET 200 https://registry.yarnpkg.com/color-name 56ms (cache revalidated)
+182 timing idealTree:node_modules/deobfuscator/node_modules/ansi-styles Completed in 60ms
+183 silly placeDep node_modules/deobfuscator color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+184 timing idealTree:node_modules/deobfuscator/node_modules/color-convert Completed in 20ms
+185 timing idealTree:node_modules/deobfuscator/node_modules/color-name Completed in 0ms
+186 timing idealTree:node_modules/deobfuscator/node_modules/y18n Completed in 0ms
+187 timing idealTree:node_modules/deobfuscator/node_modules/yargs-parser Completed in 0ms
+188 timing idealTree:buildDeps Completed in 8728ms
+189 timing idealTree:fixDepFlags Completed in 8ms
+190 timing idealTree Completed in 9049ms
+191 timing reify:loadTrees Completed in 9087ms
+192 timing reify:diffTrees Completed in 15ms
+193 silly reify moves {}
+194 timing reify:retireShallow Completed in 3ms
+195 timing reify:rollback:createSparse Completed in 0ms
+196 timing reify:rollback:retireShallow Completed in 1ms
+197 timing command:install Completed in 9388ms
+198 verbose stack Error: ENOENT: no such file or directory, mkdir '/usr/local/lib/node_modules/deobfuscator'
+199 verbose cwd /home/container/node_modules/xfarr-api
+200 verbose Linux 5.4.0-122-generic
+201 verbose node v18.16.0
+202 verbose npm  v9.7.1
+203 error code ENOENT
+204 error syscall mkdir
+205 error path /usr/local/lib/node_modules/deobfuscator
+206 error errno -2
+207 error enoent ENOENT: no such file or directory, mkdir '/usr/local/lib/node_modules/deobfuscator'
+208 error enoent This is related to npm not being able to find a file.
+208 error enoent
+209 verbose exit -2
+210 timing npm Completed in 22522ms
+211 verbose unfinished npm timer reify 1687051162534
+212 verbose unfinished npm timer reify:createSparse 1687051171801
+213 verbose code -2
+214 error A complete log of this run can be found in: /home/container/.npm/_logs/2023-06-18T01_19_09_357Z-debug-0.log
